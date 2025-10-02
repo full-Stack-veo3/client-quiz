@@ -1,0 +1,122 @@
+/* Signup.module.css */
+
+/* wrapper centré */
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f3f5; /* gris clair */
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* carte */
+.signupCard {
+  background: #ffffff;
+  padding: 1.75rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 20px rgba(12, 12, 12, 0.08);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+/* petit effet au survol */
+.signupCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(12, 12, 12, 0.12);
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 1.25rem 0;
+  color: #198754; /* vert bootstrap */
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* champs du formulaire */
+.formGroup {
+  margin-bottom: 0.85rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 0.62rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.input:focus {
+  border-color: #198754;
+  box-shadow: 0 4px 12px rgba(25, 135, 84, 0.12);
+}
+
+/* bouton primary */
+.btnPrimary {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #198754;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 140ms ease, transform 140ms ease;
+}
+
+.btnPrimary:hover {
+  background-color: #157347;
+  transform: translateY(-1px);
+}
+
+/* texte+lien login */
+.info {
+  margin-top: 0.85rem;
+  text-align: center;
+  color: #555;
+  font-size: 0.92rem;
+}
+
+.loginLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.55rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #222;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  box-sizing: border-box;
+  transition: background 120ms ease;
+}
+
+.loginLink:hover {
+  background: #f2f4f6;
+}
+
+/* responsive pour petits écrans */
+@media (max-width: 480px) {
+  .signupCard {
+    padding: 1rem;
+    max-width: 360px;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+}
