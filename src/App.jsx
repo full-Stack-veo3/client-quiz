@@ -14,7 +14,7 @@ import AdminQuiz from "./AdminQuiz";
 import UserQuiz from "./UserQuiz";
 import AdminQuizControl from "./AdminQuizControl";
 import AdminLive from "./AdminLive";
-import Home from "./home";
+import Home from "./Home";
 import Home2 from "./Home2";
 import NewArticle from "./NewArticle";
 
