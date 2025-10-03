@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignUp from "./SignUp";
 import Logout from "./Logout";
-import Login from "./login";
+import Login from "./Login";
 import LiveQuiz from "./LiveQuiz";
 
 import RAM from "./Ram"; // ✅ nouvel import
